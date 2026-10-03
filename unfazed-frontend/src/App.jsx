@@ -449,7 +449,7 @@ function App() {
 
                   try {
                     const response = await fetch(
-                      "http://localhost:5000/api/appointments",
+                      "https://unfazed-backend-qjc7.onrender.com/api/appointments",
                       {
                         method: "POST",
                         headers: {

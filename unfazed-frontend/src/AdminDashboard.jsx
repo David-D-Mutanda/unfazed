@@ -1,7 +1,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const API_URL = "http://localhost:5000/api/appointments";
+const API_URL = "https://unfazed-backend-qjc7.onrender.com/api/appointments";
 
 function AdminDashboard() {
   const [appointments, setAppointments] = useState([]);
